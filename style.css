@@ -1,15 +1,19 @@
 h1{
-	color: blue;
+	color: white;
+	background-color: rgb(200,200,200);
 }
 
 #subheader{
 	text-align: right;
-	color: orange;
+	color: white;
+	background-color: DarkCyan;	
 }
 
 p { 
 	text-align: justify
+	color: #ee3e80;
 	margin: 0 20%;
+	background-color: white;
  }
 
 #nav li {
