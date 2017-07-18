@@ -1,0 +1,109 @@
+h1{
+	color: white;
+	background-color: rgb(200,200,200);
+}
+
+#subheader{
+	text-align: right;
+	color: white;
+	background-color: DarkCyan;	
+}
+
+/* universal selector: * applies to all elements
+	Id selector: # specific IDs across documents
+	class selector: .  for classes and stuff
+	child selector: a>b targets any element a that is a child of element b
+	adjacent sibling selector: a+b targets the first element a after any b
+	general sibling selector: a~b applies rules to all siblings b of a haha 
+	In CSS the last rule usually takes precedence over the preceding
+	Children inherit parent values etc
+	*/
+
+p { 
+	text-align: justify
+	color: #ee3e80;
+	margin: 0 20%;
+	background-color: white;
+	text-shadow: 1px 1px 0px #000000; /*for drop shadows on tezt*/
+ }
+
+ /*class selector */
+ p.two{
+ 	background-color: rgba(0,0,0,0.5);
+ 	color: white;
+ 	/*color with opacity using rgba instead of opacity tag*/
+ 	/*can also be expressed with hsla tag (hue saturation lightness alpha)*/
+
+ 	/* overflow contetn 
+ 		(can also be hidden)*/
+	overflow: scroll;	
+
+	border-style: ridge;
+	border-color: #0088dd;
+	/*inset outset is what peope use for click buttons from windows98
+	shorthand:
+	border: 3px dotted #0088dd;
+	*/
+ }
+
+/* special ID sepector that deals only with #nav items that are lists*/
+#nav li {
+	display: inline;
+    margin-right: 15;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+div { 
+	border-bottom: 1px solid #efefef; 
+	margin: 10px; 
+	padding-bottom: 10px; 
+	width: 260px;
+} 
+
+.title { 
+	float: left; 
+	width: 100px; 
+	text-align: right; 
+	padding-right: 10px;
+} 
+
+.radio-buttons label { 
+	float: none;
+} 
+
+.submit { 
+	text-align: right;
+}
+
+
+a:link{
+	/*unvisited links*/
+	color: deeppink;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+a:active{
+	/*when an element is beign actived IE: clicked;*/
+	color: darkcyan;
+}
+/** for lists
+ol{
+	list-stype-type: lower-roman;
+	/* or square or circle or dot, etc
+	for images its list-style-image
+	list-style-position changes if text is to indented or inline of bullet
+	shorthand: list-style(position, type)
+}
+*/
