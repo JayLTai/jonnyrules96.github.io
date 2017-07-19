@@ -92,7 +92,7 @@ div.Module{
     width: 250px;
     height: 150px;
     margin-left: 20px;
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: rgba(0,0,0,0.7);
     box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.5), -1px -1px 10px 10px rgba(0,0,0,0.5);
     overflow: hidden;
