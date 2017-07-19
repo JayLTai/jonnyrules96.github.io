@@ -4,17 +4,18 @@ html{
 }
 
 h1{
-    border-bottom: thin solid rgba(225,225,225,0.8);
+    margin-top: 0px;
+    border-bottom: 2px solid rgba(225,225,225,0.8);
 }
 
 body
 {
-    background-color: white;
+    background-color: black;
     background-image: url(Images/Home%20Image.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: 99.9%;
     
     color: #d7d7d7;
     margin: 0px;
@@ -87,3 +88,12 @@ footer li{
     padding:auto;
 }
 
+div.Module{
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 10%;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.5), -1px -1px 10px 10px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
