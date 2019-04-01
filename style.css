@@ -707,11 +707,7 @@ input:required {
       @media only screen and (max-width: 767px) {
         .single-welcome-slide .welcome-text h2 {
           font-size: 42px; } }
-    .single-welcome-slide .welcome-text .general-text p {
-      color: #ffffff;
-      margin-bottom: 0px;
-      display: block; }
-      .single-welcome-slide .welcome-text .final-line p {
+    .single-welcome-slide .welcome-text p {
       color: #ffffff;
       margin-bottom: 50px;
       display: block; }
